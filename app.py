@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import pickle
 import numpy as np
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 
 # Load model and scaler
 model = pickle.load(open("stress_model.pkl", "rb"))
@@ -42,4 +42,5 @@ def predict():
     return render_template("result.html", result=result, score=round(score, 2))
 
 if __name__ == "__main__":
+
     app.run(debug=True)
