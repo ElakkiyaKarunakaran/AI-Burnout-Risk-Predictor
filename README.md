@@ -1,5 +1,6 @@
 **AI Burnout Risk Predictor**
 🚀 Live Project: https://ai-burnout-risk-prediction.vercel.app/
+
 **Project Overview**
 
 The AI Burnout Risk Predictor is a machine learning-based web application designed to identify the risk of burnout in individuals based on their daily habits and lifestyle patterns. Burnout is a growing issue among students and working professionals due to excessive workload, stress, and poor work-life balance.
